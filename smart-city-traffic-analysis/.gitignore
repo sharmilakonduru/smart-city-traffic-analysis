@@ -1,0 +1,24 @@
+# Airflow runtime files
+airflow/logs/
+airflow/airflow.db
+airflow/webserver_config.py
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Credentials
+*service_account*.json
+*.pem
+*.key
+
+# Large / generated data
+data/
